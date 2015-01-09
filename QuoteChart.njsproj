@@ -36,11 +36,13 @@
     <Compile Include="public\js\jquery-2.1.0.min.js" />
     <Compile Include="public\js\line.js" />
     <Compile Include="routes\quote.js" />
+    <Compile Include="worker\quoteFetch.js" />
     <Content Include="package.json" />
     <Content Include="public\index.html" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="worker\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\js\" />
